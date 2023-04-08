@@ -49,7 +49,6 @@ function App() {
                   className="weather-icon"
                   src={require(`./assets/${w.weather}.png`)}
                 />
-                <label>{w.weather}</label>
                 <label>
                   <strong style={{ color: "grey" }}>{w.temperature}</strong> /{" "}
                   {w.temperature_min}
